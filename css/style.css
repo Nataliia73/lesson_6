@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap&subset=cyrillic-ext');
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff2') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family: Gilroy;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+html,
+body {
+	height: 100%;
+	background-color: cornsilk;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+.block {
+	width: auto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+.name {
+	font-size: 50px;
+	margin: 0 0 30px 0;
+	padding: 20px;
+}
+.name_1 {
+	font-size: 35px;
+	margin: 0 0 30px 0;
+	font-style: italic;
+	background-color: cyan;
+	width: 200px;
+}
+
+.block_1 {
+	background-color: chartreuse;
+	border: 15px solid rgb(116, 97, 97);
+	width: 400px;
+	margin: 0 0 30px 0;
+}
+.block_2 {
+	background-color: chartreuse;
+	border: 15px dashed rgb(206, 38, 192);
+	width: 400px;
+	margin: 0 0 30px 0;
+}
+.block_3 {
+	background-color: chartreuse;
+	border: 15px dotted rgb(109, 116, 97);
+	width: 400px;
+	margin: 0 0 30px 0;
+}
+.inline {
+	background-color: cornflowerblue;
+	border: 2px solid black;
+	line-height: 30px;
+}
+.inline_1 {
+	margin: 0 0 30px 0;
+}
+.block_4 {
+	background-color: burlywood;
+	border-left: 35px dashed rgb(95, 19, 228);
+	border-top: 10px solid coral;
+	border-right: 15px dotted chartreuse;
+	border-bottom: 15px double crimson;
+	width: 300px;
+	margin: 0 0 30px 0;
+}
+.block_5 {
+	background-color: burlywood;
+	border: 25px solid rgb(124, 19, 115);
+	border-right: none;
+	width: 300px;
+	margin: 0 0 30px 0;
+}
+.block_6 {
+	background-color: burlywood;
+	border-right: 20px solid coral;
+	border-top: 20px solid coral;
+	border-bottom: 15px dotted crimson;
+	border-left: 15px dotted crimson;
+	width: 300px;
+	margin: 0 0 30px 0;
+}
+.link_text {
+	font-size: 20px;
+	display: block;
+	background-color: violet;
+	width: 300px;
+	outline: 5px solid black;
+}
+.link_text2 {
+	font-size: 20px;
+	background-color: turquoise;
+	outline: 10px solid rgb(71, 6, 6);
+}
+.text-link {
+	display: block;
+	font-size: 20px;
+}
+.radius-1 {
+	background-color: rgb(87, 214, 176);
+	width: 250px;
+	margin: 0 0 30px 0;
+	border-radius: 10px;
+}
+.radius-2 {
+	background-color: rgb(195, 214, 87);
+	width: 250px;
+	margin: 0 0 30px 0;
+	border-radius: 20px 0px 50px 0px;
+}
+.radius-3 {
+	background-color: rgb(29, 104, 81);
+	width: 250px;
+	margin: 0 0 30px 0;
+	border-radius: 10px 20px 40px 20px/ 50px 10px 30px 25px;
+}
+.radius-4 {
+	background-color: rgb(75, 104, 29);
+	width: 200px;
+	height: 200px;
+	margin: 0 0 30px 0;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.radius-5 {
+	background-color: deeppink;
+	border-radius: 10px;
+	border: 5px solid black;
+}
+.shadow-1 {
+	background-color: rgb(145, 187, 68);
+	width: 200px;
+	height: 200px;
+	margin: 0 0 50px 0;
+	padding: 15px;
+	box-shadow: 10px 15px 20px 10px coral;
+}
+.shadow-2 {
+	background-color: rgb(40, 132, 218);
+	width: 200px;
+	height: 200px;
+	margin: 0 0 50px 0;
+	padding: 15px;
+	box-shadow: 10px 15px 20px 10px rgb(208, 255, 80), 10px 20px 20px 10px blue;
+}
+.shadow-3 {
+	background-color: rgb(40, 132, 218);
+	width: 200px;
+	height: 200px;
+	margin: 0 0 50px 0;
+	padding: 15px;
+	border-radius: 50%;
+	box-shadow: 10px 15px 20px 10px rgb(221, 23, 188),
+		-5px -5px 20px 10px rgb(18, 172, 172);
+	overflow: hidden;
+}
+.shadow-4 {
+	background-color: rgb(218, 40, 70);
+	width: 200px;
+	height: 200px;
+	margin: 0 0 50px 0;
+	padding: 15px;
+	border-radius: 10px 100px 150px 80px;
+	box-shadow: 5px 20px 5px 10px rgb(126, 112, 112),
+		-10px -20px 20px 10px blueviolet;
+	overflow: hidden;
+}
+/* border: 20px solid transparent; border-bottom: 20px solid green; */
+.try {
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 300px solid red;
+	margin: 30px;
+}
+.opasity {
+	background-color: rgb(22, 70, 116);
+	width: 300px;
+	height: 300px;
+	margin: 0 0 50px 0;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 20px;
+	overflow: hidden;
+	opacity: 0.5;
+}
+.name_2 {
+	font-style: italic;
+	margin: 0 0 30px 0;
+	font-size: 30px;
+}
+.around {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: coral;
+}
+.paragraf {
+	background-color: deeppink;
+	opacity: 0.5;
+	margin: 0 0 30px 0;
+}
+.text {
+	border: 5px solid rgb(71, 11, 11);
+	background-color: rgb(170, 142, 29);
+	width: 500px;
+	display: block;
+	margin: 0 0 30px 0;
+}
+.line {
+	background-color: rgb(69, 224, 21);
+	border-bottom: 20px solid rgb(26, 167, 26);
+	border-top: 25px dotted rgb(98, 31, 146);
+	border-left: 30px dashed rgb(131, 18, 41);
+	border-right: 20px double rgb(255, 0, 98);
+	width: 400px;
+	margin: 0 0 30px 0;
+}
+.link {
+	font-size: 20px;
+	display: block;
+	width: 100px;
+	background-color: tomato;
+	box-shadow: 20px 10px 30px 20px rgb(124, 15, 212);
+}
